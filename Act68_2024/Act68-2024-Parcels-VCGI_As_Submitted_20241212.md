@@ -1,4 +1,4 @@
-![Act68_Part_II_Report_Cover_Slide_HigherRes](https://github.com/user-attachments/assets/ded4f679-6fe5-4367-8823-95fd213417d8)
+![Act68_Part_II_Report_Cover_Slide_HigherRes](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/00.jpg)
 
 # Purpose
 
@@ -42,7 +42,7 @@ Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.g
 
 This is a "contiguous" parcel definition, depicted in Figure 1. Separate lots are grouped by ownership for administrative purposes, including the sending of a single tax bill per owner per "parcel". Separate lots are sometimes managed as "inactive" parcels, but that term is not defined outside of the [parcel data standard](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) and maintenance varies by town. The marketability of individual lots for sale is not clear, nor is it clear is how towns should map and track lots within a combined parcel. Aggregate parcel delineation further complicates assignment of highest and best use valuation as assessors may have to generalize across several different lot types. Data management, change tracking, and downstream analysis are also negatively impacted by a contiguous parcel definition.
 
-![Parcel Types Diagram For Statute Change_v4d-01](https://github.com/user-attachments/assets/6f5e420e-9a2f-45b7-8fe7-40772bb5a618)
+![Parcel Types Diagram For Statute Change_v4d-01](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/01.jpg)
 **Figure 1: Current and Proposed Parcel Definition.** *The proposed separate parcel definition removes the need for tracking "inactive" parcels, while ensuring all component parts of parcels are assigned a unique identifier.*
 
 Defining parcel instead as a separate and sellable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" as opposed to grouped areas. This definition would would improve parcel documentation by ensuring that no parcel in full or in part goes unidentified; ease highest and best use valuation by reducing the need to generalize across different parcels; improve data maintenance, long-term record keeping, and analysis; and continue to allow aggregation by owner for tax administration. In addition, the definition of a parcel has implications for any potential fee or payment related to a municipality's parcel count (see [Recommendation 2](#recommendation-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont)).
@@ -69,7 +69,7 @@ VCGI will send advance notice of these changes to the VT GIS community, municipa
 
 A full description of proposed changes is in [Appendix 1.4: Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition](#a14-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition).
 
-![Woodstock_Inactives_Labels](https://github.com/user-attachments/assets/fd77e797-1a94-4419-9131-cc8536f4a266)
+![Woodstock_Inactives_Labels](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/02.jpg)
 **Figure 2: Example of Current Practices for Mapping Inactive Parcels.** *Inactive parcels are tracked differently depending on municipality. Woodstock and Hartford, for example, currently manage inactive parcels and provide them to VCGI while Hartland, Pomfret, and Bridgewater do not. For the latter towns it is unknown whether inactive parcels are only managed internally or not at all.*
 
 # Recommendation 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont
@@ -188,9 +188,9 @@ Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, correspo
 
 All or most of these fields are present in the sample data/schema provided by three of the four CAMA vendors. 
 
-![CAMA_Example_Patriot_01](https://github.com/user-attachments/assets/29202d0a-44a5-4630-a220-b13f4a6bb563)
+![CAMA_Example_Patriot_01](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/03a.jpg)
 
-![CAMA_Example_Patriot_02](https://github.com/user-attachments/assets/dfc4c324-d4d9-47f9-9d5d-73ad8f9e13ba)
+![CAMA_Example_Patriot_02](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/03b.jpg)
 **Figure 3: Example of CAMA Data Sheet.** *CAMA data and documentation, as provided by AssessPro. Numerous fields exist beyond those in the initially proposed schema; fields available in the statewide dataset will expand over time using a phased approach.*
 
 ### 3.3.2 Implement Changes to Parcel Definition in CAMA Data
@@ -235,13 +235,13 @@ Ideally, CAMA vendors will provide VCGI with access to a read-only, credentialed
 
 Following receipt of the updated CAMA data each month, VCGI will work to incorporate the fields listed in Section 3.2.1 in the [Parcel Viewer](https://experience.arcgis.com/experience/b5a5cc7663c84761a305f70b913e1a60) and [Geodata Portal](https://geodata.vermont.gov/). In the Parcel Viewer, users will be able to access CAMA data easily and in relation to existing parcel, Grand List, and Property Transfer data. The comprehensive, tabular CAMA dataset will also be available publicly for download through the Geodata Portal. 
 
-![Spatialized_Property_Transfers_Dash](https://github.com/user-attachments/assets/b72f62e8-953a-4c61-b342-721c17ee9414)
+![Spatialized_Property_Transfers_Dash](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/04.jpg)
 **Figure 4: Dashboard Displaying Property Transfer Data.** *Parcels are the primary unit allowing for the spatial display of property transfer data, either via SPAN or property address. Viewing transfer data on a map reveals spatial patterns and allows convenient filtering and querying. The inclusion of CAMA data using a similar method will expand the completeness and capabilities of statewide property data and subsequent analyses.*
 
-![PTTRs_Primary_and_Secondary_Sales_2020-2024_v2](https://github.com/user-attachments/assets/4f9fe44a-5b02-4c1f-85f3-0bbd8a49a493)
+![PTTRs_Primary_and_Secondary_Sales_2020-2024_v2](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/05.jpg)
 **Figure 5: Property Transfers of Primary and Secondary Homes.** *Patterns of ownership and building use are revealed when filtering property transfer data on price and primary or secondary homes. The availability of CAMA fields such as year built, unit count, or other building qualities would provide further insight into these data.*
 
-![ParcelViewer_Survey_Library_Animation](https://github.com/user-attachments/assets/968d8e9f-b5c0-4702-82e0-8a22db989969)
+![ParcelViewer_Survey_Library_Animation](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/06.gif)
 **Figure 6: Survey Data Available within the Parcel Viewer.** *Surveys listed in the [Vermont Land Survey Library](https://landsurvey.vermont.gov/) are included in the Parcel Viewer and linked to their relevant parcel for quick access. Parcels again are the primary unit linking multiple data sources and displaying information collectively.*
 
 ## 3.5 Example Statute Update
@@ -276,7 +276,7 @@ In Vermont there is no formally defined practice or requirement for the handling
 
 [Other states have attempted](#a41-example-row-statutes-in-other-states) to clarify treatment of rights-of-way in statute, which may also be an option for Vermont. However, these examples are arguably not clear for all conditions, and may be legally and administratively burdensome to enact and enforce. Given the relatively low frequency of ROWs that are out of compliance with the state data standard (see [Appendix 4](#appendix-4-clarify-right-of-way-mapping-for-tax-purposes-considerations) and [Section 4.2.1](#421-acreage-in-right-of-way)), these issues could likely be addressed through a review of listed vs. mapped acreage of ROW-abutting parcels (see [Recommendation 5](#recommendation-5-clarify-grand-list-vs-gis-acreage-guidance)), clear guidance within the Tax Department's Lister and Assessor Handbook, and [VCGI's reporting of parcel data submittals](https://maps.vcgi.vermont.gov/parcelstatus) that are out of compliance with the state data standard.
 
-![ROW_Zones_Diagram](https://github.com/user-attachments/assets/086078d4-7da8-496a-b4bb-3d380ca477f7)
+![ROW_Zones_Diagram](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/07.jpg)
 **Figure 7: Methods for Mapping Rights-of-Way.** *Mapping of ROWs may vary depending on road type. Recommended guidance is that all parcels be mapped to the edge of the ROW regardless of road type or ownership (diagram A).*
 
 ### 4.2.1 Acreage in Right-of-Way
@@ -293,11 +293,11 @@ While the majority (96%) of municipalities include ROWs, a small number do not. 
 
 In addition, ROWs for the following municipalities are typically missing or incorrectly attributed when updated data are sent to VCGI: Canaan, Royalton, Saint Albans Town, West Windsor, and Wolcott. ROWs for these municipalities can often be restored, however, using the existing data. 
 
-![ROW_acreage](https://github.com/user-attachments/assets/cd87c576-58a5-443e-8a3b-a31288008565)
+![ROW_acreage](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/08.PNG)
 
 **Figure 8: Total Right-of-Way Acreage by Town.** *ROW acreage, as summed by town for all parcels with a Property Type of ROW_Road, ROW_Rail, or ROW_Trail. Total statewide ROW acreage is 133,150 acres, average per town is 522 acres, maximum is 1,883 acres (Randolph), and minimum is 16 acres (Avery's Gore).*
 
-![ROW_zoom](https://github.com/user-attachments/assets/6c4da9a4-2798-4ad9-89b9-ee3a0a5ff5e4)
+![ROW_zoom](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/09.PNG)
 
 **Figure 9: Rights-of-Way Types.** *Example of parcels with Property Type of ROW_Road (grey), ROW_Rail (red), and ROW_Trail (green) in Ferrisburgh.*
 
@@ -324,8 +324,8 @@ If either regional assessment districts or the State assume ultimate responsibil
 
 In addition to acreage and resulting taxation associated with areas of property in road rights-of-way, acreage discrepancies between listed and mapped values are common. It is currently technically possible to easily display and compare differences between listed and mapped acreage. 
 
-![Listed_Vs_Mapped_Acreage_Percent_Difference](https://github.com/user-attachments/assets/9af187d1-4f4f-4f22-b13a-8a84f47a2ed6)
-![image](https://github.com/user-attachments/assets/d723529b-89de-43e8-915a-312fdfe6d9b6)
+![Listed_Vs_Mapped_Acreage_Percent_Difference](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/10a.jpg)
+![Listed_Vs_Mapped_Acreage_Percent_Difference_Legend](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/10b.png)
 
 **Figure 10: Percent Difference Between Grand List Acreage and GIS Acreage.** *Visualized differences in listed acreage and GIS (drawn) acreage in Northfield, VT. The amount of percent difference is shown in five ranges and colors, as well as described in text on each parcel. [See an interactive map of these differences.](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=e452fa5505644e12b1bf8b6308f7b2e8)*
 
@@ -377,7 +377,7 @@ Annual access to aerial imagery provides up-to-date, high-resolution visuals of 
 
 **Standardized Process:** Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
 
-![2023_15cm_SouthBurlingtonDev_close](https://github.com/user-attachments/assets/7b92eefb-6e1c-4239-be4f-fbb9f1b72f5d)
+![2023_15cm_SouthBurlingtonDev_close](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/11.jpg)
 **Figure 11: High Resolution Imagery to Capture Development.** *High resolution imagery could improve the efficiency with which assessments are performed while providing up-to-date information.*
 
 ### 6.3.3 Resolution, Frequency, and Types that Speed the Process
@@ -396,8 +396,8 @@ Key characteristics of oblique imagery include:
 -	Three-Dimensional Perspective: The angled view reveals details about the height, depth, and structure of objects.
 -	Rich Detail: It captures features not visible from directly above, such as facades, overhangs, or property boundaries hidden by tree cover in nadir imagery.
 
-![Obliques_01a_KY_From_Above](https://github.com/user-attachments/assets/6bc4a26b-3984-4b4c-9538-72860a1953ba)
-![Obliques_01b_KY_From_Above](https://github.com/user-attachments/assets/a6a2951d-62ef-4690-8d07-6204dd7c15bf)
+![Obliques_01a_KY_From_Above](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/12a.jpg)
+![Obliques_01b_KY_From_Above](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/12b.jpg)
 **Figure 12: Oblique Imagery.** *Screenshots from a viewer show oblique imagery with possible measurements and identifiable features for properties in Kentucky. The imagery is publicly available [here](https://explore.kyfromabove.ky.gov/?ll=36.738774,-83.737983) (Color_6052_19796, Right_6053_24171, Fwd_6052_19790, Left_6050_12120, and Bwd_6052_19804).*
 
 
@@ -429,14 +429,13 @@ Recent advancements in technology have enabled:
 
 **Error Reduction:** Automated systems minimize human error and bias, ensuring consistent application of appraisal standards across properties.
 
-![Automated_Detection_01_Vexcel](https://github.com/user-attachments/assets/1c037e71-e185-4eaf-a64f-e4319b09e023)
+![Automated_Detection_01_Vexcel](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/13.png)
 **Figure 13: Automated Change Detection.** *AI algorithms can assess imagery to detect new construction and existing construction both with and without changes over time.*
 
-![Automated_Attribute_01_Vexcel](https://github.com/user-attachments/assets/470fd5d9-8841-46fe-aef8-8be757c82d36)
+![Automated_Attribute_01_Vexcel](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/14.png)
 **Figure 14: Detection of Specified Attributes.** *Using machine learning, models can detect the presence of solar panels on a roof in Texas. The ability to detect certain features will enhance valuation accuracy.*
 
-![Automated_Id_Examples_Vexcel](https://github.com/user-attachments/assets/5d8e1d54-0d44-42ee-afe2-532a7ef9cc25)
-
+![Automated_Id_Examples_Vexcel](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/15.jpg)
 **Figure 15: Summarized Building Attributes.** *In examples from Arizona and Florida, the presence or absence of property features and measurements are quickly assessed and provided.*
 
 ## 7.3 Implementation
@@ -459,10 +458,10 @@ Contracts commonly include print media products, often in the form of large form
 
 Towns are not limited to print products to provide access to current, accurate tax map information. Many towns also contract for custom web applications that display digital parcel data in a web map along with CAMA card integration for all properties. These web map applications provide citizens access to current information via underlying dynamic data sources. The [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/) provides access to best-available parcel data statewide and [offers much of the same functionality](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md) for towns that do not individually contract for custom map applications.
 
-![BarreCity_CAI_WebApp01](https://github.com/user-attachments/assets/95343fbf-8e25-414d-b9c4-3854bcd8d3cd)
+![BarreCity_CAI_WebApp01](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/16.jpg)
 **Figure 16: Municipal Parcel Web Map Application.** *Some towns contract for additional services such as web maps that display CAMA data for all properties.*
 
-![BarreCity_ParcelViewer](https://github.com/user-attachments/assets/da32ee08-a992-42e2-9d43-9877518a622f)
+![BarreCity_ParcelViewer](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/17.jpg)
 **Figure 17: Statewide Parcel Viewer Web Map Application.** *All towns have access to best-available parcel data via the Vermont Parcel Viewer web map application. As of 2024 the viewer presents property transfers and submitted land surveys along with grand list information for all parcels. Future integration with CAMA data is possible should it become available per Recommendation 3.*
 
 ## 8.3 Implementation
@@ -494,7 +493,7 @@ In 2023 over 19,000 parcels were enrolled in current use, totaling over 2.5 mill
 
 A meaningful detail and caveat to the map linked above is that current use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
 
-![2023_CurrentUse](https://github.com/user-attachments/assets/4a0bf7fd-a32d-4217-9f63-b23782bb5f56)
+![2023_CurrentUse](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/18.jpg)
 **Figure 18: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the current use program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
 
 ## 9.3 Implementation
@@ -569,7 +568,7 @@ From a mapping perspective, a parcel is an ideal container by which land records
 
 As an example of the utility and need in Vermont, the [Protected Lands](https://geodata.vermont.gov/datasets/VCGI::vt-protected-lands-database/about) database could be enhanced through the inclusion of authoritative, digital land records indicating ownership and easements linked to parcel geometry. Mapping of these conserved lands--which are often a tricky combination of easements and encumbrances--is now a statutory requirement of the Vermont Housing and Conservation Board and ANR every two years under Act 59 of 2023.
 
-![ProtectedLands_Protection_Status_Jurisdiction_Access](https://github.com/user-attachments/assets/eb691607-3da6-4ed5-9057-e34acfbc0bcd)
+![ProtectedLands_Protection_Status_Jurisdiction_Access](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/19.jpg)
 **Figure 19: Protected Lands.** *Protected lands in Vermont, classified by Jurisdiction (top left), Public Access (top right), Primary Protection type (lower left), and GAP Status (lower right). Inclusion of digital land records could provide additional information for classification, including which parcels contain easements or the history of ownership.*
 
 ## 11.3 Implementation
@@ -624,7 +623,7 @@ Other uses include:
 
 There is currently no enforcement around the survey submittal requirement, and additional measures could be used to encourage participation before considering more severe penalties for non-compliance. Any future work in land records digitization or realignment of assessment jurisdictions should consider leveraging this existing resource. The professional surveying, appraisal, and real estate communities, along with municipal officials who oversee local bylaws and development regulations, could be further engaged for improvements.
  
-![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
+![SurveyLibraryStatus_Dec7_2024](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/20.jpg)
 **Figure 20: Statistics from the Vermont Land Survey Library.** *Land surveyors are responsible for submitted new surveys to the Land Survey Library. Information about surveys including type, submittal date, survey year, town, and surveyor are tracked. These data can help assess patterns and completeness when compared to property transfers and new Grand List records, as well as between geographical areas.*
 
 ## Support Survey of Municipal Boundaries and/or Corner Points
@@ -633,11 +632,11 @@ Town boundaries form the basis of numerous administrative decisions, governance,
 
 Massachusetts began [officially surveying corner points of municipalities in the 1890s](https://www.mass.gov/info-details/massgis-data-municipalities), and continues to update [surveyed points](https://gis.massdot.state.ma.us/towncorners/) and town boundaries statewide with any boundary changes approved by the state's legislature. Formally surveying all of Vermont's municipal boundaries and/or corner points would be a significant undertaking but ultimately help confirm and establish reliable, consistent, and permanent boundary designations that would improve all dependent mapping and policies.
 
-![MuniLibrary_Survey_2](https://github.com/user-attachments/assets/6e6ad6d9-711e-4593-9c96-9109075fb448)
+![MuniLibrary_Survey_2](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/21.jpg)
 **Figure 21: Survey of Town Line Between Underhill and Westford.** *Town boundaries are not officially surveyed in many parts of the state. The Land Survey Library includes a specific designation for surveyors to indicate whether the survey is a municipal boundary. Ideally all town boundaries will be officially surveyed and formally documented in time.*
 
 ### Acreage Not Counted (Gaps) and Double Counted (Overlaps)
-![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
+![WinooskiTopology_example](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/22.png)
 
 **Figure 22: Gaps and Overlaps Between Municipal Boundaries.** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI. [Explore gaps and overlaps in parcel data along town boundaries](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=7972f2b2ab0646deae0fd8d8b79e138d).*
 
@@ -784,7 +783,7 @@ Status of submitted parcel geometry, including counts of inactives and submittal
 
 Inactive parcels are not managed consistently across towns; currently 178 towns (70%) submit inactive parcels. In addition, attribution of the parcel status field (active/inactive) is not complete or consistent for all submitting towns. As of November 2024, only 138 towns (54%) have submitted inactives with a populated and presumably accurate "STATUS" field. This means the parent parcel has an "ACTIVE" status and all associated "INACTIVE" status parcels have a PARENTSPAN matching the "ACTIVE" status SPAN.
 
-![ActiveInactive](https://github.com/user-attachments/assets/9ebd72bc-9f34-4c54-aa2a-e930529b9803)
+![ActiveInactive](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/22b-table.png)
 
 **Table 4: Example of correct attribution in the inactive parcel layer.** *The parcel with an "ACTIVE" status has a SPAN entry, followed by the associated "INACTIVE" status parcels with PARENTSPAN entries linking them to the "ACTIVE" parcel. In the Active Parcels layer, these five parcels would be merged to a single parcel. In some cases, "INACTIVE" status parcels may also include a unique SPAN entry. Typically these are placeholders used by town officials.*
 
@@ -812,7 +811,7 @@ Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.g
 
 Depicted visually, a contiguous parcel definition means that the two abutting parcels below, which have the same owner and are shown split with a dotted green line, are drawn as the single outer rectangle. This results as one "parcel" in the spatial data layer.
 
-![image](https://github.com/user-attachments/assets/239c3a7e-e6f5-44cd-bb89-e8768e81a1da)
+![image](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/23.png)
 
 **Figure 23: Contiguous Parcel Schematic.** *In the current parcel dataset, abutting parcels with the same ownership are considered to be a single parcel.*
 
@@ -871,7 +870,7 @@ VCGI currently publishes and maintains two statewide parcel layers: Active Parce
 
 **Table 6: Transition from Inactive Parcels to Parcels.** *The schema changes for the Parcels layer are removing the "STATUS" field and renaming "PARENTSPAN" to "ADMINSPAN". The ADMINSPAN is the common identifier for all contiguous parcels under the same ownership; this field can contain duplicates and can be used to aggregate parcels to the Administrative Parcel layer. The SPAN is the unique identifier for each separate and sellable lot (i.e., a parcel under the proposed new definition); this field should not contain duplicates. In many cases, and all instances where a parcel has no neighbors with the same owner/tax bill, the ADMINSPAN and SPAN fields will be the same.*
 
-![AdminSPANs_SPANs](https://github.com/user-attachments/assets/cbb220fb-17ba-4a2a-bafb-6918cb4d5024)
+![AdminSPANs_SPANs](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/24.JPG)
 
 **Figure 24: Tabular and Spatial Representation of Proposed Parcel Layers.** *Under the new parcel definition, the Parcels layer will represent parcels as single sellable units, each with a unique SPAN. The ADMINSPAN field will include duplicates for any abutting parcels with common ownership. The Administrative Parcels layer will combine any parcels with the same ADMINSPAN entries to a single geometry.*
 
@@ -1022,7 +1021,7 @@ See references to parcel defined by common ownership.
 ### A2.1 Current Shared Responsibility Model (Town Maintenance)
 The success of the Parcel Program as a voluntary-based initiative is due to the collaboration between municipalities, state government, and mapping vendors in the private sector. This "Shared Responsibility" model relies on all parties contributing resources to maintain statewide parcel data.
 
-![image](https://github.com/user-attachments/assets/57368cfe-eb6c-47b7-99ad-66c17cb00e3d)
+![image](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/25.png)
 
 **Figure 25: Current Parcel Data Maintenance Practices.** *Depending on the needs and resources of a municipality, several types of parcel data maintenance practices exist.*
 
@@ -1241,13 +1240,13 @@ Statewide standardized parcel data in Vermont is currently comprised of parcel g
 
 Stacked polygons use a standalone Intersection Table to relate multiple SPANs from the Grand List to the same “placeholder” SPAN assigned to a polygon in the parcel data. 
 
-![image](https://github.com/user-attachments/assets/959a5b13-4dd0-484c-b064-758ae657ee00)
+![image](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/26.png)
 
 **Figure 26: Relationship Between GIS SPAN (Geometry) and Grand List SPAN.** *In Vermont parcel data, the stacked method is recommended. This method uses a placeholder GIS SPAN in the parcel geometry. In the Intersection Table, the GIS SPAN is listed for all corresponding Grand List SPANs at that parcel.*
 
 This method creates identical polygons "stacked" on top of each other, which can be “flattened” to remove all but one polygon for each parcel for analytical purposes. Unlike the building footprints methods, there is no visual distinction between unlanded structures and the common land. Because of this, parcel geometry is simpler to maintain.
 
-![image](https://github.com/user-attachments/assets/8da7e8ab-d3e0-4423-881a-1ce1e2a9d399)
+![image](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/27.png)
 
 **Figure 27: Stacked Method Mapping of Condos.** *The stacked method depicts multiple owners through parcel stacking; there is no distinction between common land and building footprints (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
@@ -1262,11 +1261,11 @@ Cons
 
 Building footprints are often used to visually distinguish between unlanded structures and the common land, particularly as a paper tax map convention. The difference between the “Distributed” and “Discrete” building footprint methods is whether or not the common land has a SPAN. Per the Vermont GIS Parcel Data Standard, “in some instances, a deed specifies a percentage of common land ownership to each condominium unit and the common land does not have a SPAN number. In other instances, a deed does not allocate the common land, and the common land does have a SPAN number.”
 
-![image](https://github.com/user-attachments/assets/2ff17158-461a-490d-8062-6c014960c6f0)
+![image](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/28.png)
 
 **Figure 28: Discrete Method Mapping of Condos.** *The discrete method depicts multiple owners through building footprints; common land does not have a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
-![image](https://github.com/user-attachments/assets/b39db8ec-ef97-477d-b394-b303d2ff0c4d)
+![image](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/29.png)
 
 **Figure 29: Distributed Method of Mapping Condos.** *The distributed method depicts multiple owners through building footprints; common land also has a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
@@ -1281,7 +1280,7 @@ Cons
 
 Parcel points are maintained by Dakota County in the State of Minnesota. This data layer is a compilation of tax parcel information, containing one record for each real estate/tax parcel identification number (PIN) within the county. Condominiums are included in this dataset (whereas they are not in the polygons).
 
-![image](https://github.com/user-attachments/assets/3e0e0b19-c8eb-48ad-922e-44bcfc481928)
+![image](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/30.png)
 
 **Figure 30: Parcel Points Method Mapping of Condos.** *While parcel points are not currently maintained or available in Vermont, at least one mapping vendor does manage them for parcels with multiple owners (source: [Dakota County, Minnesota](https://gis.co.dakota.mn.us/DCGIS/)).*
 
@@ -1315,11 +1314,11 @@ A stacked polygon is a group of identical parcel features (polygons) stacked on 
 - There are 27,239 grand list records represented as 3,254 stacked polygons statewide
 - Stacked polygons account for 200,457 acres (about 3.5% of the total acres attributed to parcels)
 
-![CommonOwnership_statewide](https://github.com/user-attachments/assets/2eecb05d-b610-4d0c-97e0-ab4c7a197e55)
+![CommonOwnership_statewide](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/31.png)
 
 **Figure 31: Common Ownership Parcels Statewide.** *Shaded areas represent stacked parcels.*
 
-![CommonOwnership_Brattleboro](https://github.com/user-attachments/assets/9580c23e-579e-41fe-aa55-b9fc13aa058b)
+![CommonOwnership_Brattleboro](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/32.png)
 
 **Figure 32: Stacked Parcels in Brattleboro.** *An example of stacked parcels (shaded) indicating a mobile home park with over 200 unique Grand List SPANs.*
 
@@ -1338,5 +1337,5 @@ Notes:
 2. Acres were calculated by multiplying square miles by 640, per conversion factors in the [NIST Handbook 44 (2023)](https://www.nist.gov/system/files/documents/2023/01/30/appc-23-HB44.pdf), Appendix C: General Tables of Units of Measurement.
 3. Area measurements are from the Census Bureau's master TIGER database. Land and water classifications reflect updates made to the TIGER database through August 2022. Values reflect the ALAND and AWATER fields. Water measurements include only perennial water. All other water (intermittent, glacier, marsh/swamp) is included in the table as part of land area calculations.
 
-![Vermont Land and Water Area 02 Comp_1144px](https://github.com/user-attachments/assets/79b7d3cd-30c2-4238-bdde-57ac7de9957b)
+![Vermont Land and Water Area 02 Comp_1144px](https://vcgi.nyc3.cdn.digitaloceanspaces.com/parcel-program/Act68-2024-Images/33.png)
 **Figure 33: Vermont Land and Water Areas.** *Statewide land and water areas as depicted using BNDHASH and NHDPlus HR input layers.*
